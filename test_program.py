@@ -5,6 +5,8 @@ dir_files = [filename.lower() for filename in os.listdir(BASE_DIR)]
 
 files_list = ['program.py', 'readme.md']
 
+test_value: str = 'Test value'
+
 
 def test_program():
     for filename in files_list:
